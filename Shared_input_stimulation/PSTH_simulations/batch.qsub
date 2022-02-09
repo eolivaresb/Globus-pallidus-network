@@ -1,0 +1,14 @@
+#!/bin/bash -l
+#
+#$ -S /bin/bash
+#SBATCH -p normal
+#SBATCH --partition=defq
+#SBATCH -t 00-65:00:00
+#SBATCH -N 1
+#SBATCH -n 60
+#SBATCH -o output.txt
+#SBATCH -e errors.txt
+module load gcc/8.2.0 python/3.6.1 openmpi/3.0.0
+#$ -cwd
+
+mpirun -np 60 python run_simulation.py
