@@ -1,13 +1,15 @@
 # Globus-pallidus-network
 
 
-### Code for simulations, analysis and plots article:
+### Code for simulations, analysis and plots on the article:
 
-"Mutual inhibition in a model of the indirect pathway globus pallidus network slows and deregularizes background firing, but sharpens and synchronizes responses to striatal input"
+* "Mutual inhibition in a model of the indirect pathway globus pallidus network slows and deregularizes background firing, but sharpens and synchronizes responses to striatal input" *
 
 Erick O. Olivares, Matthew H. Higgs, and Charles J. Wilson
 
 If you have any question please contact Erick Olivares erick.olivaresbravo@utsa.edu  erickolivaresb@gmail.com
+
+Large data files has been removed, they can be retrieved from code or sent upon request.
 
 ## List of figures and respective code location:
 
